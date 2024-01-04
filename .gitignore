@@ -1,0 +1,18 @@
+.vscode
+_version.py
+build
+dist
+examples/*out*
+*.egg-info
+*__pycache__*
+.DS_Store
+vaby_models_asl/test/test_data
+*.nii.gz 
+.coverage
+# ignore basil option files
+*options.txt
+# don't ignore files used in examples
+!examples/spld_asltc.nii.gz
+!examples/asldata_spld_diff.nii.gz
+!examples/asldata_spld_mask.nii.gz
+!examples/spld_options.txt
